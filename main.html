@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<script type="text/javascript">
+		//获得电脑手机浏览器信息
+			var agent=navigator.userAgent.toLowerCase()
+			if(agent.indexOf('iphone')==-1 && agent.indexOf('android')==-1){
+				location.href='pc/index.html';
+			}else{
+				location.href('mobile/index.html')
+			}
+		</script>
+	</body>
+</html>
